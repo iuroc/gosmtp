@@ -73,6 +73,5 @@ func SendSmtp(option SmtpOption) error {
 	writer.Close()
 	smtpClient.Quit()
 	smtpClient.Close()
-	fmt.Println("邮件发送成功")
 	return nil
 }
